@@ -210,4 +210,11 @@
 <path d="M24 2L0 13.25L7.66994 15.6172L19.5 6.375L10.5017 16.4913L10.509 16.4936L10.5 16.4913V22L14.8013 17.8183L20.2501 19.5L24 2Z" fill="white"/>
 </symbol>
 
+<!-- HW7 -->
+
+<!-- HAMBURGER ICON -->
+<symbol id="hamburger-icon">
+    <path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+
 </svg>

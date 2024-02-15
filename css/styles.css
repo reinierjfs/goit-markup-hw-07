@@ -26,42 +26,7 @@ img {
   display: block;
 }
 
-/* CONTAINER */
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 /* HEADER SECTION */
-.header-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav,
-.address {
-  display: flex;
-  align-items: center;
-}
-
-.nav > .list {
-  display: flex;
-  gap: 40px;
-}
-
-.address > .list {
-  display: flex;
-  gap: 40px;
-}
-
-.header {
-  border-bottom: 1px solid var(--cornflower);
-  background: var(--white);
-  padding: 24px 0;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
 
 .logo {
   color: var(--iris);
@@ -74,11 +39,44 @@ img {
   margin-right: 76px;
 }
 
+.header {
+  border-bottom: 1px solid var(--cornflower);
+  padding: 24px 0;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav,
+.address {
+  display: flex;
+  align-items: center;
+}
+
+/* CONTAINER */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* NAVIGATION ITEMS */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
 .accent {
   color: var(--navy-blue);
 }
-
-/* NAV ITEMS */
 
 .item {
   color: var(--navy-blue);
@@ -89,8 +87,8 @@ img {
   padding: 24px 0;
 }
 
-.list-items > .link:hover,
-.list-items > .link:focus {
+li > .link:hover,
+li > .link:focus {
   color: var(--ocean);
 }
 
@@ -99,6 +97,10 @@ img {
 .navi.link {
   position: relative;
   color: var(--ocean);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-item > .link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -113,35 +115,43 @@ img {
   width: 100%;
 }
 
-.contact-item > .link {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.nav > .list {
+  display: flex;
+  gap: 40px;
 }
 
 /* ADDRESS */
 
-.contact-item > .contact {
+.contact {
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .address {
   font-style: normal;
 }
 
-.contact:hover,
-.contact:focus {
-  color: var(--ocean);
+.address > .list {
+  display: flex;
+  gap: 40px;
 }
 
-.link {
-  text-decoration: none;
-}
+/* HW7 BELOW
+.contact-section {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+} */
 
-.list {
-  list-style: none;
-}
+/* .container {
+  max-width: 768px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+} */
 
 /* MAIN SECTION */
 /* SECTION 1 INDEX.HTML */
