@@ -171,20 +171,6 @@ li > .link:focus {
   margin: 0 auto;
 }
 
-.section-one-container {
-  /* background-color: var(--navy-blue);
-  padding: 188px 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office.jpg);
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
-}
-
 .header-hero {
   font-size: 56px;
   line-height: 1.07;
@@ -545,9 +531,6 @@ li > .link:focus {
 .footer {
   background-color: var(--navy-blue);
   padding: 100px 0;
-  /* BELOW FOOTER MARGIN */
-  /* max-width: 1440px;
-  margin: 0 auto; */
 }
 
 .footer-info {
@@ -786,7 +769,6 @@ input[placeholder="E-mail"] {
 .modal-input:hover,
 .label-comment-text:hover,
 .label-comment-text:focus {
-  /* border-color: var(--iris); */
   outline: none;
   border: 1px solid var(--iris);
 }
